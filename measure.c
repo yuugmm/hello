@@ -28,3 +28,4 @@ unsigned int get_elapsed_time(unsigned int *start_tm){
   unsigned int stop_tm = (unsigned int)getrusageval();
   return (stop_tm>=*start_tm)? (stop_tm-*start_tm) : (stop_tm);
 }
+aaa
